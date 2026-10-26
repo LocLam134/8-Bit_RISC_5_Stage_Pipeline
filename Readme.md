@@ -1,7 +1,5 @@
 # 8-Bit 5-Stage Pipelined RISC Processor (Verilog & Vivado)
 
-**Author:** Lam Duy Loc  
-**Student ID:** SE190907  
 **Tools & Language:** Verilog-2001 (RTL), AMD Xilinx Vivado  
 **Target FPGA:** Xilinx Virtex-7 (`xc7vx485tffg1157-1`) — Target Clock: 100 MHz (10 ns)
 
@@ -199,3 +197,10 @@ The processor core was elaborated and synthesized in Vivado targeting the **Xili
 4. **Add Simulation Sources:** Select **Add or create simulation sources**, add `sim/tb_risc8_5stage.v`, and set `tb_risc8_5stage` as the Simulation Top module.
 5. **Run Behavioral Simulation:** In the **Flow Navigator**, click **Run Simulation** $\rightarrow$ **Run Behavioral Simulation**. Check the **Tcl Console** for the cycle-by-cycle execution trace and the final `*** ALL TESTS PASSED ***` message.
 6. **Run Synthesis:** Click **Run Synthesis** in the **Flow Navigator**, then open **Synthesized Design** $\rightarrow$ **Report Utilization** and **Schematic** to inspect hardware resource usage and gate-level netlists.
+
+## 👨‍💻 Author
+- **Name:** Lam Duy Loc
+- **Student ID:** SE190907
+- **Specialization:** Semiconductor & Integrated Circuit Design — FPT University
+- GitHub: https://github.com/LocLam134
+- Email: loc.slh11357@gmail.com
