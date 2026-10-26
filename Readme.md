@@ -154,10 +154,11 @@ The built-in verification program in `imem.v` executes 34 instructions across fi
 * **Forwarded Operands:** 12 forwards
 
 ### Behavioral Simulation Waveform
-![Behavioral Simulation Waveform](Screenshots/F2_Waveform/waveform.png)
+<img width="1913" height="940" alt="waveform" src="https://github.com/user-attachments/assets/7bde663d-82a6-43b6-8f0c-f98883cc2e90" />
 
 ### Self-Checking Verification Output in Tcl Console
-![Tcl Console Verification Output](Screenshots/F3_Tcl_Console/Tcl_Console.png)
+<img width="1621" height="851" alt="Tcl_Console1" src="https://github.com/user-attachments/assets/ed679d80-92ea-4e6e-a865-d8ddc466f8b5" />
+<img width="1621" height="897" alt="Tcl_Console2" src="https://github.com/user-attachments/assets/958a06c6-91c5-4067-a536-94811ec9a769" />
 
 ---
 
