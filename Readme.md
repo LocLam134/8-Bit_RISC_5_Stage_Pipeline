@@ -56,7 +56,7 @@ All data and control hazards are resolved automatically in hardware via operand 
         ├── F6_Report_Utilization/Report_Utilization.png    # Virtex-7 FPGA resource utilization report
         └── Truth_Table/                                    # Control unit truth table documentation
 
-![Vivado Project Hierarchy](Screenshots/F1_Project_Sources/Project_Sources.png)
+<img width="1917" height="940" alt="Project_Sources" src="https://github.com/user-attachments/assets/7bdd42e2-6e87-4bca-bff6-6f3098c0714b" />
 
 ---
 
@@ -181,13 +181,13 @@ The processor core was elaborated and synthesized in Vivado targeting the **Xili
 *Note:* `u_dmem` uses 853 LUTs and 2,048 Slice Registers ($256 \times 8\text{-bit}$) because the data memory includes a synchronous reset that clears all 256 bytes in a single clock cycle, while `u_alu` uses 0 registers, confirming purely combinational logic without unwanted latches.
 
 ### RTL Elaborated Schematic
-![RTL Elaborated Schematic](Screenshots/F4_Elaborated_Schematic/Schematic.png)
+<img width="1917" height="987" alt="Schematic" src="https://github.com/user-attachments/assets/fdc66ba8-3c00-4b42-90c2-a84435277d56" />
 
 ### Gate-Level Synthesized Schematic
-![Synthesized Design Schematic](Screenshots/F5_Synthesized_Schematic/Synthesized_Design.png)
+<img width="1917" height="976" alt="Synthesized_Design" src="https://github.com/user-attachments/assets/14677641-564d-40c9-b6d5-5687f7c49b9d" />
 
 ### Vivado Resource Utilization Report
-![Vivado Utilization Report](Screenshots/F6_Report_Utilization/Report_Utilization.png)
+<img width="1916" height="971" alt="Report_Utilization" src="https://github.com/user-attachments/assets/b2e0091f-3724-4925-8f45-63deaa1097e3" />
 
 ---
 
